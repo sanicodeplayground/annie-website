@@ -4,9 +4,14 @@ const plugin = require("tailwindcss/plugin");
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+          'custom-light':'#DDEFF0',
+          'custom-grey':'#5C656F',
+        }
+    },
     fontFamily: {
-      sans: ["Plus Jakarta Sans", "sans-serif"],
+      sans: ["DM Serif Display", "serif"],
     },
   },
   plugins: [

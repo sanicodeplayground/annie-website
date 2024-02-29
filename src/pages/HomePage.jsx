@@ -7,9 +7,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <Bio />
       <Projects />
-      <BlogCards />
     </div>
   );
 };
