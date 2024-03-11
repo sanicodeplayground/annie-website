@@ -17,7 +17,7 @@ function Header() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
            
-            <span className="self-center text-2xl font-semibold whitespace-nowrap ">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-custom-grey">
               Annie Booker
             </span>
           </Link>
@@ -56,7 +56,7 @@ function Header() {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
                   aria-current="page"
                 >
                   Home
@@ -65,7 +65,7 @@ function Header() {
               <li>
                 <Link
                   to="/about"
-                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
                 >
                   About
                 </Link>
@@ -73,7 +73,7 @@ function Header() {
               <li>
                 <Link
                   to="/projects"
-                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
                 >
                   Projects
                 </Link>
@@ -81,7 +81,7 @@ function Header() {
               <li>
                 <Link
                   to="/blog"
-                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
                 >
                   Blog
                 </Link>
@@ -89,7 +89,7 @@ function Header() {
               <li>
                 <Link
                   to="/contact"
-                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
                 >
                   Contact
                 </Link>

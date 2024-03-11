@@ -4,134 +4,15 @@ function Footer() {
   return (
     <footer className="my-0 sm:p-6">
       <div className="py-8 px-4  mx-auto max-w-screen-xl pt-10">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <a
-              href="#"
-              className="flex items-center"
-              aria-label="Link to home page"
-              title="Home page"
-            >
-              <svg
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.996512 4.99209C0 6.94785 0 9.50809 0 14.6286V17.3714C0 22.4919 0 25.0521 0.996512 27.0079C1.87307 28.7283 3.27175 30.1269 4.99209 31.0035C6.94785 32 9.50809 32 14.6286 32H17.3714C22.4919 32 25.0521 32 27.0079 31.0035C28.7283 30.1269 30.1269 28.7283 31.0035 27.0079C32 25.0521 32 22.4919 32 17.3714V14.6286C32 9.50809 32 6.94785 31.0035 4.99209C30.1269 3.27175 28.7283 1.87307 27.0079 0.996512C25.0521 0 22.4919 0 17.3714 0H14.6286C9.50809 0 6.94785 0 4.99209 0.996512C3.27175 1.87307 1.87307 3.27175 0.996512 4.99209Z"
-                  fill="#E8853D"
-                />
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M14.7896 13.0033C14.7896 12.2688 15.3901 11.9863 16.3847 11.9863C17.8109 11.9863 19.6125 12.4195 21.0387 13.1916V8.76586C19.4811 8.14437 17.9423 7.89954 16.3847 7.89954C12.5753 7.89954 10.0419 9.89584 10.0419 13.2293C10.0419 18.4272 17.1729 17.5986 17.1729 19.8397C17.1729 20.706 16.4223 20.9885 15.3714 20.9885C13.8138 20.9885 11.8246 20.3482 10.2483 19.4819V23.9641C11.9935 24.7174 13.7575 25.0376 15.3714 25.0376C19.2747 25.0376 21.9582 23.0978 21.9582 19.7267C21.9394 14.1144 14.7896 15.1126 14.7896 13.0033Z"
-                  fill="white"
-                />
-              </svg>
-            </a>
-          </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-              <h2 className="mb-6 text-sm font-semibold  uppercase">
-                Links
-              </h2>
-              <ul >
-                <li className="mb-4">
-                  <Link to="/projects" className="hover:underline">
-                    Projects
-                  </Link>
-                </li>
-                <li className="mb-4">
-                  <Link to="/blog" className="hover:underline">
-                    Blog
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold  uppercase ">
-                Follow me
-              </h2>
-              <ul>
-                <li className="mb-4">
-                  <a
-                    href="https://www.linkedin.com/in/sgailu/"
-                    className="hover:underline "
-                    target="_blank"
-                  >
-                    LinkedIn
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://github.com/sanicodeplayground"
-                    className="hover:underline"
-                    target="_blank"
-                  >
-                    Github
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://sanicodeplayground.com/CV.pdf"
-                    className="hover:underline "
-                    target="_blank"
-                  >
-                    My Resume
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold  uppercase ">
-                Resources for Developers
-              </h2>
-              <ul >
-                <li className="mb-4">
-                  <a
-                    href="https://developer.mozilla.org/en-US/"
-                    className="hover:underline"
-                    target="_blank"
-                  >
-                    Mozilla Developer
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://react.dev/learn/thinking-in-react"
-                    className="hover:underline"
-                    target="_blank"
-                  >
-                    Thinking in React
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://wave.webaim.org/"
-                    className="hover:underline"
-                    target="_blank"
-                    aria-label="Accessibility check resource"
-                    title="Accessibility check resource"
-                  >
-                    Accessibility check
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <hr className="my-6 sm:mx-auto lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-center">
-          <span className="text-sm sm:text-center ">
+        <div className="sm:flex sm:items-center sm:justify-center text-custom-grey">
+          <span className="text-sm sm:text-center">
             © 2024
             <a
               href="https://github.com/sanicodeplayground/portfolio2024"
               className="hover:underline"
               target="_blank"
             >
-              Annie Brooker
+              Annie Brooker Illustration
             </a>
             . All Rights Reserved.
           </span>
