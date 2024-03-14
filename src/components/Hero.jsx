@@ -10,7 +10,7 @@ function Hero() {
             Annie is an illustrator based in Bristol
           </h2>
           <p className="mb-8 text-lg max-w-md">
-            I spend most of my time creating cute and colorful art that will hopefully make you smile!
+            I spend most of my time creating illustrations that tell the stories of the natural world
           </p>
         </div>
     </div>
