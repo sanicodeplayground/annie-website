@@ -11,7 +11,7 @@ function Projects() {
         <li className="">
             <a href="/" target="_blank" title="The Great Bear">
               <img
-                src="./images/portfolio/04.jpeg"
+                src="./images/portfolio/03.jpeg"
                 alt="Portfolio"
                 className="rounded-xl"
               />
@@ -20,7 +20,7 @@ function Projects() {
         </li>
 
         <li className="">
-            <a href="/" target="_blank" title="The Great Bear">
+            <a href="/" target="_blank" title="Tales From The North">
               <img
                 src="./images/portfolio/05.jpg"
                 alt="Portfolio"
@@ -33,7 +33,7 @@ function Projects() {
         <li className="">
             <a href="/" target="_blank" title="The Nature of Ringing">
               <img
-                src="./images/portfolio/01.jpeg"
+                src="./images/portfolio/02.jpeg"
                 alt="Portfolio"
                 className="rounded-xl"
               />
