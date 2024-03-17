@@ -43,14 +43,14 @@ function Projects() {
       {/* projects grid */}
       <ul className="grid max-w-[26rem] sm:max-w-[52.5rem] px-4 grid-cols-1 sm:grid-cols-2  mx-auto gap-6 lg:gap-y-8 xl:gap-x-8 lg:px-8 lg:max-w-6xl pb-20">
         {projects.map((project, index) => (
-          <li key={index} className="">
+          <li key={index} >
             <a href={project.href} target={project.target} title={project.title} >
               <img
               src={project.src}
               alt={project.alt}
               className="rounded-xl"
               />
-              <h3 className="text-sm leading-6 text-slate-900  font-semibold  md:text-xl mb-4 mt-6" >
+              <h3 className="leading-6 text-custom-grey font-semibold md:text-xl mb-4 mt-6" >
                 {project.description}
               </h3>
             </a>
