@@ -3,17 +3,17 @@ function BioExtended() {
     <section className="text-custom-grey">
       <article className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md  leading-loose [&>p]:mt-3 [&>ul]:mt-3">
         <h2 className="mb-4 text-4xl  font-extrabold">About me</h2>
-
-        {/* <h3 className="mb-4 mt-8 text-3xl  font-extrabold">
-          As an illustrator
-        </h3> */}
+        <img src="./images/annie2.jpeg" alt="Annie" className="border-8 border-white"  />
         <p>
           Hello! My name is Annie, and I am an illustrator currently based in
-          Bristol. You can usually find me scribbling away outdoors in
+          Bristol.</p> <p>You can usually find me scribbling away outdoors in
           frequented spots. I also love getting involved with our local flora
           and fauna directly, through both my work as an ornithologist and my
-          time spent ringing birds.
+          time spent ringing birds.</p>
+          <p>
+          I normally use mixed media - paints, pens, pastels, collage and design software to create textural illustrations and murals in a unique style. I take time to understand the requirements of a brief, and I work with a balance of care and speed to project completion. I pride myself in my professional process - confidently getting things done, and turning my client’s ideas into reality.
         </p>
+        
         <p>
           Following the receipt of my BA degree in Illustration from The
           University of West England, I have been working on getting the
@@ -30,13 +30,20 @@ function BioExtended() {
           analogue medium but I&apos; m particularly drawn to watercolour,
           graphite and ink work.
         </p>
-        <ul>
+        <h2 className="mb-4 text-3xl font-extrabold mt-10">Awards</h2>
+        <ul className="list-disc">
           <li>Winner of the Batsford Prize people&apos;s choice award 2022</li>
           <li>Highly commended by Pan Macmillan Prize 2022</li>
           <li>
             Runner up in the Batsford Prize 2022 Children&apos;s Illustration.
           </li>
         </ul>
+        <p>I’m always looking for new projects, whether it’s visual storytelling, field work or commissioned artworks. For anything book related please contact my agent at <a href="https://www.springliterary.com/" target="_blank"> Spring Literary</a>. Anything else please don’t hesitate to get in touch!</p>
+        <div className="flex flex-col md:flex-row items-center mt-10">
+          <img className="md:w-3/4 md:mr-5 border-8 border-white" src="./images/annie1.jpg" alt="Annie"   />
+          <a className="md:w-1/4" href="https://www.instagram.com/anniebookerart/" target="_blank">@anniebookerart</a>
+        </div>
+
       </article>
     </section>
   );
