@@ -1,9 +1,9 @@
 function BioExtended() {
   return (
-    <section className="text-custom-grey">
-      <article className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md  leading-loose [&>p]:mt-3 [&>ul]:mt-3">
+    <section className="text-custom-primary">
+      <article className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md leading-loose [&>p]:mt-3 [&>ul]:mt-3">
         <h2 className="mb-4 text-4xl  font-extrabold">About me</h2>
-        <img src="./images/annie2.jpeg" alt="Annie" className="border-8 border-white"  />
+        <img src="./images/annie2.jpeg" alt="Annie" className="border-8 border-white bg-slate-200 w-full"  />
         <p>
           Hello! My name is Annie, and I am an illustrator currently based in
           Bristol.</p> <p>You can usually find me scribbling away outdoors in
@@ -30,18 +30,20 @@ function BioExtended() {
           analogue medium but I&apos; m particularly drawn to watercolour,
           graphite and ink work.
         </p>
-        <h2 className="mb-4 text-3xl font-extrabold mt-10">Awards</h2>
-        <ul className="list-disc">
+        <h2 className="mb-4 text-2xl font-extrabold mt-10 text-gray-400">Awards</h2>
+        <ul className="list-disc list-inside text-gray-400">
           <li>Winner of the Batsford Prize people&apos;s choice award 2022</li>
           <li>Highly commended by Pan Macmillan Prize 2022</li>
           <li>
             Runner up in the Batsford Prize 2022 Children&apos;s Illustration.
           </li>
         </ul>
-        <p>I’m always looking for new projects, whether it’s visual storytelling, field work or commissioned artworks. For anything book related please contact my agent at <a href="https://www.springliterary.com/" target="_blank"> Spring Literary</a>. Anything else please don’t hesitate to get in touch!</p>
+        <hr class="h-px my-8 bg-slate-400 border-0"></hr>
+        <p>I’m always looking for new projects, whether it’s visual storytelling, field work or commissioned artworks. For anything book related please contact my agent at <a href="https://www.springliterary.com/" target="_blank" className="underline"> Spring Literary.</a> </p>
+        <p>Anything else please don’t hesitate to get in touch!</p>
         <div className="flex flex-col md:flex-row items-center mt-10">
-          <img className="md:w-3/4 md:mr-5 border-8 border-white" src="./images/annie1.jpg" alt="Annie"   />
-          <a className="md:w-1/4" href="https://www.instagram.com/anniebookerart/" target="_blank">@anniebookerart</a>
+          <img className="md:w-3/4 md:mr-5 border-8 border-white mb-10" src="./images/annie1.jpg" alt="Annie"   />
+          <a className="md:w-1/4 underline" href="https://www.instagram.com/anniebookerart/" target="_blank">📸 @anniebookerart</a>
         </div>
 
       </article>

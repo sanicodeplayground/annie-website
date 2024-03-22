@@ -2,24 +2,11 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="my-0 sm:p-6">
-      <div className="py-8 px-4  mx-auto max-w-screen-xl pt-10">
-        <div className="sm:flex sm:items-center sm:justify-center text-custom-grey">
-          <span className="text-sm sm:text-center">
-            © 2024
-            <a
-              href="https://github.com/sanicodeplayground/portfolio2024"
-              className="hover:underline"
-              target="_blank"
-            >
-              Annie Brooker Illustration
-            </a>
-            . All Rights Reserved.
-          </span>
-          
-        </div>
-      </div>
+
+    <footer className="text-center text-sm pt-20 pb-10 sm:p-6 text-custom-primary">
+      <p>All artwork © Annie Brooker / <a className="md:w-1/4 underline" href="https://www.instagram.com/anniebookerart/" title="Annie's Instagram" target="_blank">📸 @anniebookerart</a></p>
     </footer>
+
   );
 }
 
