@@ -8,16 +8,20 @@ function Header() {
     setIsMenuOpen((prevState) => !prevState); // Toggle based on previous state
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header>
       <nav>
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="container max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
            
-            <span className="self-center text-2xl font-semibold whitespace-nowrap text-custom-grey">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-custom-primary">
               Annie Booker
             </span>
           </Link>
@@ -52,11 +56,11 @@ function Header() {
             } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+            <ul className="font-medium flex flex-col rtl:space-x-reverse mt-4 md:flex-row md:space-x-8 md:mt-0">
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0" onClick={closeMenu}
                   aria-current="page"
                 >
                   Home
@@ -65,7 +69,7 @@ function Header() {
               <li>
                 <Link
                   to="/about"
-                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0" onClick={closeMenu}
                 >
                   About
                 </Link>
@@ -73,7 +77,7 @@ function Header() {
               <li>
                 <Link
                   to="/projects"
-                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0" onClick={closeMenu}
                 >
                   Projects
                 </Link>
@@ -81,7 +85,7 @@ function Header() {
               <li>
                 <Link
                   to="/contact"
-                  className="block py-2 px-3 text-custom-grey rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  "
+                  className="block py-2 px-3 text-custom-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0" onClick={closeMenu}
                 >
                   Contact
                 </Link>

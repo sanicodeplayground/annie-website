@@ -7,7 +7,8 @@ export default {
     extend: {
       colors: {
           'custom-light':'#DDEFF0',
-          'custom-grey':'#5C656F',
+          'custom-primary':'#5C656F',
+          'custom-hover':'red',
         }
     },
     fontFamily: {
