@@ -6,10 +6,10 @@ export default {
   theme: {
     extend: {
       colors: {
-          'custom-light':'#DDEFF0',
-          'custom-primary':'#5C656F',
-          'custom-hover':'red',
-        }
+        "custom-light": "#DDEFF0",
+        "custom-primary": "#5C656F",
+        "custom-hover": "#363d45",
+      },
     },
     fontFamily: {
       sans: ["DM Serif Display", "serif"],

@@ -20,8 +20,7 @@ function Header() {
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-           
-            <span className="self-center text-2xl font-semibold whitespace-nowrap text-custom-primary">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap">
               Annie Booker
             </span>
           </Link>
@@ -60,7 +59,8 @@ function Header() {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 text-custom-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0" onClick={closeMenu}
+                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0"
+                  onClick={closeMenu}
                   aria-current="page"
                 >
                   Home
@@ -69,7 +69,8 @@ function Header() {
               <li>
                 <Link
                   to="/about"
-                  className="block py-2 px-3 text-custom-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0" onClick={closeMenu}
+                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0"
+                  onClick={closeMenu}
                 >
                   About
                 </Link>
@@ -77,7 +78,8 @@ function Header() {
               <li>
                 <Link
                   to="/projects"
-                  className="block py-2 px-3 text-custom-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0" onClick={closeMenu}
+                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0"
+                  onClick={closeMenu}
                 >
                   Projects
                 </Link>
@@ -85,7 +87,8 @@ function Header() {
               <li>
                 <Link
                   to="/contact"
-                  className="block py-2 px-3 text-custom-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0" onClick={closeMenu}
+                  className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-custom-hover md:p-0"
+                  onClick={closeMenu}
                 >
                   Contact
                 </Link>

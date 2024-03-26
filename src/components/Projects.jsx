@@ -44,8 +44,8 @@ function Projects() {
         {projects.map((project, index) => (
           <li key={index}>
             <Link to={project.to} title={project.title}>
-              <img src={project.src} alt={project.alt} className="rounded-xl" />
-              <h3 className="leading-6 text-custom-primary font-semibold md:text-xl mb-4 mt-6">
+              <img src={project.src} alt={project.alt} className="rounded-sm" />
+              <h3 className="text-custom-primary font-semibold md:text-xl mb-4 mt-3">
                 {project.description}
               </h3>
             </Link>

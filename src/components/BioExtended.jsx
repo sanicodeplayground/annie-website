@@ -1,19 +1,31 @@
 function BioExtended() {
   return (
-    <section className="text-custom-primary">
+    <section>
       <article className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md leading-loose [&>p]:mt-3 [&>ul]:mt-3">
         <h2 className="mb-4 text-4xl  font-extrabold">About me</h2>
-        <img src="./images/annie2.jpeg" alt="Annie" className="border-8 border-white bg-slate-200 w-full"  />
+        <img
+          src="./images/annie2.jpeg"
+          alt="Annie"
+          className="border-8 border-white bg-slate-200 w-full"
+        />
         <p>
           Hello! My name is Annie, and I am an illustrator currently based in
-          Bristol.</p> <p>You can usually find me scribbling away outdoors in
-          frequented spots. I also love getting involved with our local flora
-          and fauna directly, through both my work as an ornithologist and my
-          time spent ringing birds.</p>
-          <p>
-          I normally use mixed media - paints, pens, pastels, collage and design software to create textural illustrations and murals in a unique style. I take time to understand the requirements of a brief, and I work with a balance of care and speed to project completion. I pride myself in my professional process - confidently getting things done, and turning my client’s ideas into reality.
+          Bristol.
+        </p>{" "}
+        <p>
+          You can usually find me scribbling away outdoors in frequented spots.
+          I also love getting involved with our local flora and fauna directly,
+          through both my work as an ornithologist and my time spent ringing
+          birds.
         </p>
-        
+        <p>
+          I normally use mixed media - paints, pens, pastels, collage and design
+          software to create textural illustrations and murals in a unique
+          style. I take time to understand the requirements of a brief, and I
+          work with a balance of care and speed to project completion. I pride
+          myself in my professional process - confidently getting things done,
+          and turning my client’s ideas into reality.
+        </p>
         <p>
           Following the receipt of my BA degree in Illustration from The
           University of West England, I have been working on getting the
@@ -30,7 +42,9 @@ function BioExtended() {
           analogue medium but I&apos; m particularly drawn to watercolour,
           graphite and ink work.
         </p>
-        <h2 className="mb-4 text-2xl font-extrabold mt-10 text-gray-400">Awards</h2>
+        <h2 className="mb-4 text-2xl font-extrabold mt-10 text-gray-400">
+          Awards
+        </h2>
         <ul className="list-disc list-inside text-gray-400">
           <li>Winner of the Batsford Prize people&apos;s choice award 2022</li>
           <li>Highly commended by Pan Macmillan Prize 2022</li>
@@ -39,13 +53,34 @@ function BioExtended() {
           </li>
         </ul>
         <hr class="h-px my-8 bg-slate-400 border-0"></hr>
-        <p>I’m always looking for new projects, whether it’s visual storytelling, field work or commissioned artworks. For anything book related please contact my agent at <a href="https://www.springliterary.com/" target="_blank" className="underline"> Spring Literary.</a> </p>
+        <p>
+          I’m always looking for new projects, whether it’s visual storytelling,
+          field work or commissioned artworks. For anything book related please
+          contact my agent at{" "}
+          <a
+            href="https://www.springliterary.com/"
+            target="_blank"
+            className="underline hover:text-custom-hover"
+          >
+            {" "}
+            Spring Literary.
+          </a>{" "}
+        </p>
         <p>Anything else please don’t hesitate to get in touch!</p>
         <div className="flex flex-col md:flex-row items-center mt-10">
-          <img className="md:w-3/4 md:mr-5 border-8 border-white mb-10" src="./images/annie1.jpg" alt="Annie"   />
-          <a className="md:w-1/4 underline" href="https://www.instagram.com/anniebookerart/" target="_blank">📸 @anniebookerart</a>
+          <img
+            className="md:w-3/4 md:mr-5 border-8 border-white mb-10"
+            src="./images/annie1.jpg"
+            alt="Annie"
+          />
+          <a
+            className="md:w-1/4 underline hover:text-custom-hover"
+            href="https://www.instagram.com/anniebookerart/"
+            target="_blank"
+          >
+            📸 @anniebookerart
+          </a>
         </div>
-
       </article>
     </section>
   );
