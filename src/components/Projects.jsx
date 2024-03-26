@@ -13,8 +13,14 @@ function Projects() {
         {projects.map((project) => (
           <li key={project.id}>
             <Link to={`/projects/${project.id}`} title={project.title}>
-              <img src={project.src} alt={project.alt} className="rounded-sm" />
-              <h3 className="text-custom-primary font-semibold md:text-xl mb-4 mt-3">
+              <div className="w-full overflow-hidden">
+                <img
+                  src={project.src}
+                  alt={project.alt}
+                  className="mb-2 transition ease-in-out duration-1000 object-cover hover:scale-105"
+                />
+              </div>
+              <h3 className="text-custom-primary font-semibold md:text-xl">
                 {project.description}
               </h3>
             </Link>
