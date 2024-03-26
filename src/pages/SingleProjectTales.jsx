@@ -1,3 +1,5 @@
+import theCaribou from "/images/portfolio/tales/01.jpeg";
+
 function SingleProjectTales() {
   return (
     <div>
@@ -26,10 +28,10 @@ function SingleProjectTales() {
       </p>
       <ul className="grid">
         <li>
-          <img src="./images/portfolio/tales/01.jpeg" alt="Portfolio" />
+          <img src={theCaribou} alt="Portfolio" />
         </li>
         <li>
-          <img src="./images/portfolio/tales/01.jpeg" alt="Portfolio" />
+          <img src="/images/portfolio/tales/01.jpeg" alt="Portfolio" />
         </li>
       </ul>
     </div>
